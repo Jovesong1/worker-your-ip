@@ -1,5 +1,5 @@
 {
-  "name": "worker-your-ip",
+  "name": "your-ip-hn",
   "main": "src/index.ts",
   "compatibility_date": "2025-12-12",
   "compatibility_flags": [],
@@ -9,5 +9,11 @@
   },
   "placement": {
     "mode": "smart"
-  }
+  },
+  "routes": [
+    {
+      "pattern": "ip.hn.edu.kg",
+      "custom_domain": true
+    }
+  ]
 }
